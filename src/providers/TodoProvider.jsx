@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 
 const TodoContext = createContext();
-const initialState = [];
+const initialState = ["first task"];
 
 const TodoProvider = ({ childern }) => {
   const [todoList, setTodoList] = useState();
