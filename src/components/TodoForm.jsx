@@ -4,9 +4,7 @@ const TodoForm = () => {
   return (
     <form>
       <input type="text" />
-      <button>
-        <FaTrash />
-      </button>
+      <button type="submit"></button>
     </form>
   );
 };

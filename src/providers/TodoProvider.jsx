@@ -4,7 +4,7 @@ const TodoContext = createContext();
 const initialState = ["first task"];
 
 const TodoProvider = ({ childern }) => {
-  const [todoList, setTodoList] = useState();
+  const [todoList, setTodoList] = useState(initialState);
 
   const contextValue = {
     todoList,
